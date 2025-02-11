@@ -1,0 +1,7 @@
+torch
+transformers
+nltk
+pandas
+numpy
+scikit-learn
+optuna
