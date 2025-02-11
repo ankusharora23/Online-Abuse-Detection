@@ -43,7 +43,7 @@ The detection framework consists of two main components:
 │   └── Cyberbullying_detection_system.ipynb
 ├── data/
 │   ├── imdb_reviews/
-│   └── annotated_tweets/
+│   └── cyberbullying_tweets/
 ├── requirements.txt
 ├── LICENSE
 └── README.md
@@ -79,12 +79,12 @@ pip install -r requirements.txt
 ### Dataset Setup
 
 1. Download the required datasets:
-   - Annotated tweets dataset for abuse detection
-   - IMDB movie reviews dataset for sentiment analysis
+   - Cyberbullying tweets dataset for abuse detection (https://www.kaggle.com/datasets/andrewmvd/cyberbullying-classification)
+   - IMDB movie reviews dataset for sentiment analysis (https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
 
 2. Place the datasets in the `data/` directory:
    - `data/imdb_reviews/` for sentiment analysis
-   - `data/annotated_tweets/` for abuse detection
+   - `data/cyberbullying_tweets/` for abuse detection
 
 ## Usage
 
